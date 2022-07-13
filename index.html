@@ -64,10 +64,12 @@
     <section id="Portfolio" class="container">
 
       <!-- Project 1 -->
-      <div class="card d-flex flex-row m-5 p-4" style="width: 90%;">
-        <img src="assets/project1.png" class="card-img-top" alt="..." style="width: 50%;">
+      <div class="card d-flex row flex-row m-5 p-4">
+        <div class="col-md-5">
+          <img src="assets/project1.png" class="img-fluid" alt="...">
+        </div>
 
-        <div class="card-body ms-2">
+        <div class="card-body ms-2 col-md-5">
           <h5 class="card-title fs-3 fw-bold">Tonic</h5>
 
           <ul class="list-group d-flex flex-row align-items-center d-flex justify-content-start text-decoration-none">
@@ -89,9 +91,12 @@
       </div>
 
       <!-- Project 2 -->
-      <div class="card d-flex flex-row-reverse m-5 p-4" style="width: 90%;">
-        <img src="assets/project2.png"  style="width: 50%;" class="card-img-top" alt="...">
-        <div class="card-body ms-2">
+      <div class="card d-flex row flex-row-reverse m-5 p-4">
+        <div class="col-md-5">
+          <img src="assets/project2.png" class="img-fluid" alt="...">
+        </div>
+
+        <div class="card-body ms-2 col-md-5">
           <h5 class="card-title fs-3 fw-bold">Multi-Post Stories</h5>
 
           <ul class="list-group d-flex flex-row align-items-center d-flex justify-content-start text-decoration-none">
@@ -114,9 +119,13 @@
       </div>
 
       <!-- Project 3 -->
-      <div class="card d-flex flex-row m-5 p-4" style="width: 90%;">
-        <img src="assets/project3.png" style="width: 50%;" class="card-img-top" alt="...">
-        <div class="card-body ms-2">
+      <div class="card d-flex row flex-row m-5 p-4">
+
+        <div class="col-md-5">
+          <img src="assets/project3.png" class="img-fluid" alt="...">
+        </div>
+
+        <div class="card-body ms-2 col-md-5">
           <h5 class="card-title fs-3 fw-bold">Facebook 360</h5>
 
           <ul class="list-group d-flex flex-row align-items-center d-flex justify-content-start text-decoration-none">
@@ -139,37 +148,44 @@
       </div>
 
       <!-- Project 4 -->
-      <div class="card d-flex flex-row-reverse m-5 p-4" style="width: 90%;">
-        <img src="assets/project4.png" style="width: 50%;" class="card-img-top" alt="...">
-        <div class="card-body ms-2">
-          <h5 class="card-title fs-3 fw-bold">Uber Navigation</h5>
-
-          <ul class="list-group d-flex flex-row align-items-center d-flex justify-content-start text-decoration-none">
-            <li class="list-group-item border-0 p-0 me-4">Uber</li>
-            <li class="text-secondary me-4">Lead Developer</li>
-            <li class="text-secondary">2018</li>
-          </ul>
-
-          <p class="fs-6">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
-
-          <div>
-            <span class="badge bg-info">html</span>
-            <span class="badge bg-info">Ruby on rails</span>
-            <span class="badge bg-info">css</span>
-            <span class="badge bg-info">JavaScript</span>
-          </div>
-
-          <a href="#" class="btn btn-primary mt-4">See Project</a>
-        </div>
+      <div class="card m-5 p-4 row d-flex flex-row-reverse">
+            <div class="col-md-5">
+              <img src="assets/project4.png" class="img-fluid" alt="...">
+            </div>
+    
+            <div class="card-body ms-2 col-md-5">
+              <h5 class="card-title fs-3 fw-bold">Uber Navigation</h5>
+    
+              <ul class="list-group d-flex flex-row align-items-center d-flex justify-content-start text-decoration-none">
+                <li class="list-group-item border-0 p-0 me-4">Uber</li>
+                <li class="text-secondary me-4">Lead Developer</li>
+                <li class="text-secondary">2018</li>
+              </ul>
+    
+              <p class="fs-6">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+    
+              <div>
+                <span class="badge bg-info">html</span>
+                <span class="badge bg-info">Ruby on rails</span>
+                <span class="badge bg-info">css</span>
+                <span class="badge bg-info">JavaScript</span>
+              </div>
+    
+              <a href="#" class="btn btn-primary mt-4">See Project</a>
+            </div>
+    
       </div>
+
+       
+
+        
       
     </section>
 
     <!--about zone-->
-    <section id="About" class="container-fluid about d-flex justify-content-center bg-white">
-      <div class="d-flex justify-content-center d-flex align-items-center">
+    <section id="About" class="container-fluid row about d-flex justify-content-center bg-white">
 
-        <div class="card-body" style="width: 40%;">
+        <div class="card-body col-md-6">
           <h5 class="card-title fw-bold fs-1">About My Self.</h5>
           <p class="card-text">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
           <p class="text-primary">LET'S CONNECT</p>
@@ -198,7 +214,7 @@
 
 
 
-        <div class="card-body"  style="width: 60%;">
+        <div class="card-body col-md-6">
           <p class="d-flex flex-row justify-content-between fw-bold border-bottom me-4 p-2">Languages<i class="fas fa-angle-down"></i></p>
           <div class="d-flex flex-row justify-content-start">
             <img class="img-thumbnail me-2 bg-light" src="assets/javascript.png" alt="html" style="width: 100px;">
@@ -209,7 +225,7 @@
           <p class="d-flex flex-row justify-content-between fw-bold border-bottom me-4 p-2">Skills<i class="fas fa-angle-right"></i></p>
         </div>
 
-      </div>
+      
 
     </section>
   </main>
