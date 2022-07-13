@@ -6,6 +6,10 @@ main .welcome {
   height: 100vh;
   border-radius: 0 0 0 200px;
 }
+main .about {
+  height: 70vh;
+  border-radius: 0 200px 0 0;
+}
 
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)

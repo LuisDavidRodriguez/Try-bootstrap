@@ -6,8 +6,11 @@ main {
     height: 100vh;
     border-radius: 0 0 0 200px;
   }
-}
 
-.
+  .about {
+    height: 70vh;
+    border-radius: 0 200px 0 0;
+  }
+}
 
 @import "node_modules/bootstrap/scss/bootstrap.scss";
