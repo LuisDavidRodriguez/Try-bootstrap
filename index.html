@@ -8,21 +8,20 @@
   <title>Portfolio Bootstrap</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-secondary bg-opacity-25">
+<body class="">
   <header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex fixed-top bg-opacity-75">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Pair programming</a>
+        <a class="navbar-brand fw-bold text-primary ps-5" href="#">Pair programming</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNavAltMarkup">
+          <div class="navbar-nav " style="width: auto;">
+            <a class="nav-link fw-bold" href="#Portfolio">Portfolio</a>
+            <a class="nav-link fw-bold" href="#About">About</a>
+            <a class="nav-link fw-bold" href="#Contact">Contact</a>
           </div>
         </div>
       </div>
@@ -30,7 +29,7 @@
 
   </header>
   
-  <main>
+  <main class="bg-secondary bg-opacity-25">
     <section class="container-fluid welcome  d-flex justify-content-center bg-white">
         <!-- Welcome area -->
         <div class="d-flex justify-content-center d-flex align-items-center" style="width: 70%;">
@@ -62,7 +61,7 @@
     </section>
 
     <!-- Projects zone -->
-    <section class="container">
+    <section id="Portfolio" class="container">
 
       <!-- Project 1 -->
       <div class="card d-flex flex-row m-5 p-4" style="width: 90%;">
@@ -93,15 +92,15 @@
       <div class="card d-flex flex-row-reverse m-5 p-4" style="width: 90%;">
         <img src="assets/project2.png"  style="width: 50%;" class="card-img-top" alt="...">
         <div class="card-body ms-2">
-          <h5 class="card-title fs-3 fw-bold">Tonic</h5>
+          <h5 class="card-title fs-3 fw-bold">Multi-Post Stories</h5>
 
           <ul class="list-group d-flex flex-row align-items-center d-flex justify-content-start text-decoration-none">
-            <li class="list-group-item border-0 p-0 me-4">CANOPY</li>
-            <li class="text-secondary me-4">Back End Dev</li>
+            <li class="list-group-item border-0 p-0 me-4">FACEBOOK</li>
+            <li class="text-secondary me-4">Full Stack Dev</li>
             <li class="text-secondary">2015</li>
           </ul>
 
-          <p class="fs-6">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <p class="fs-6">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
 
           <div>
             <span class="badge bg-info">html</span>
@@ -118,15 +117,15 @@
       <div class="card d-flex flex-row m-5 p-4" style="width: 90%;">
         <img src="assets/project3.png" style="width: 50%;" class="card-img-top" alt="...">
         <div class="card-body ms-2">
-          <h5 class="card-title fs-3 fw-bold">Tonic</h5>
+          <h5 class="card-title fs-3 fw-bold">Facebook 360</h5>
 
           <ul class="list-group d-flex flex-row align-items-center d-flex justify-content-start text-decoration-none">
-            <li class="list-group-item border-0 p-0 me-4">CANOPY</li>
-            <li class="text-secondary me-4">Back End Dev</li>
+            <li class="list-group-item border-0 p-0 me-4">FACEBOOK</li>
+            <li class="text-secondary me-4">Full Stact Dev</li>
             <li class="text-secondary">2015</li>
           </ul>
 
-          <p class="fs-6">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <p class="fs-6">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
 
           <div>
             <span class="badge bg-info">html</span>
@@ -143,15 +142,15 @@
       <div class="card d-flex flex-row-reverse m-5 p-4" style="width: 90%;">
         <img src="assets/project4.png" style="width: 50%;" class="card-img-top" alt="...">
         <div class="card-body ms-2">
-          <h5 class="card-title fs-3 fw-bold">Tonic</h5>
+          <h5 class="card-title fs-3 fw-bold">Uber Navigation</h5>
 
           <ul class="list-group d-flex flex-row align-items-center d-flex justify-content-start text-decoration-none">
-            <li class="list-group-item border-0 p-0 me-4">CANOPY</li>
-            <li class="text-secondary me-4">Back End Dev</li>
-            <li class="text-secondary">2015</li>
+            <li class="list-group-item border-0 p-0 me-4">Uber</li>
+            <li class="text-secondary me-4">Lead Developer</li>
+            <li class="text-secondary">2018</li>
           </ul>
 
-          <p class="fs-6">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <p class="fs-6">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
 
           <div>
             <span class="badge bg-info">html</span>
@@ -166,11 +165,8 @@
       
     </section>
 
-
-
-
     <!--about zone-->
-    <section class="container-fluid about d-flex justify-content-center bg-white">
+    <section id="About" class="container-fluid about d-flex justify-content-center bg-white">
       <div class="d-flex justify-content-center d-flex align-items-center">
 
         <div class="card-body" style="width: 40%;">
@@ -216,10 +212,34 @@
       </div>
 
     </section>
-
   </main>
+
+  <footer id="Contact" class="bg-primary d-flex flex-column align-items-center justify-content-center">
+    <div class="d-flex flex-column align-items-center" style="width: 40%;"> 
+      <h3 class="text-center text-white fs-1 fw-bold">Contact me</h3>
+      <p class="text-center text-white fs-4">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+      
+      <form class="d-flex flex-column align-items-center" style="width: 90%;">
+
+        <div class="mb-3" style="width: 90%;">
+          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name:">
+        </div>
+
+        <div class="mb-3" style="width: 90%;">
+          <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email:">
+        </div>
+
+        <div class="mb-3" style="width: 90%;">
+          <textarea type="text" class="form-control" rows="5" id="exampleInputPassword1" placeholder="Comments:"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-light text-primary fw-bold">Get in touch</button>
+      </form>
+
+    </div>
+      
+  </footer>
   
   <script src="https://kit.fontawesome.com/4e5bc16f7d.js" crossorigin="anonymous"></script>
-  <script src="index.js"></script>
 </body>
 </html>

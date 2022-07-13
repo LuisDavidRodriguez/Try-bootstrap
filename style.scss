@@ -13,4 +13,13 @@ main {
   }
 }
 
+footer {
+  background-image: url("./assets/Footer.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: 50% 50%;
+  height: 90vh;
+  border-radius: 200px 0 0 0;
+}
+
 @import "node_modules/bootstrap/scss/bootstrap.scss";
