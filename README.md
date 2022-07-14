@@ -21,9 +21,10 @@ To get a local copy up and running follow these simple example steps.
 
 ## Desktop version screenshot
 
-![image](https://user-images.githubusercontent.com/106561762/178395159-23b149ba-5ae7-4f2d-b3f4-7fae0c491769.png)
+![image](https://user-images.githubusercontent.com/106561762/178858777-4b5f8195-322d-47ad-a173-a79c77991abf.png)
 
 ## Authors
 
 👤 **Luis David Rodriguez**
+
 👤 **Erik Stoupignan Sánchez Beltrán**
